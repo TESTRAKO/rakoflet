@@ -1,1 +1,9 @@
+
 flet
+opencv-python (cv2)
+SpeechRecognition (speech_recognition)
+pyttsx3
+threading (مضمنة في بايثون)
+time (مضمنة في بايثون)
+imaplib (مضمنة في بايثون)
+email (مضمنة في بايثون)

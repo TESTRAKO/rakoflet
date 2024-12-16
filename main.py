@@ -1,7 +1,7 @@
 from flet import *
 
 def main(page:Page):
-    T = Text('Rakwan ali')
+    T = Text('Hamdi Alsamit')
     page.add(T)
     
     page.update()

@@ -1,9 +1,10 @@
-from flet import *
+import flet as ft
 
-def main(page:Page):
-    T = Text('Rakwan ali')
-    page.add(T)
-    
-    page.update()
+def main(page: ft.Page):
+    flashlight = ft.Flashlight()
+    page.overlay.append(flashlight)
+    page.add(
+        ft.TextButton("toggle", on_click=lambda _: flashlight.toggle())
+    )
 
-app(main)
+ft.app(main)
